@@ -9,6 +9,7 @@ namespace ComunicaAPI.Models
     {
         public int Id { get; set; }
         public string Nome { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
         public List<Categoria> Categorias { get; set; } = new List<Categoria>();
     }
 }
